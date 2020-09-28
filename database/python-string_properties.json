@@ -1,0 +1,304 @@
+var _JSON_fullString_r3 =
+{ 'pyStringFunction' :
+
+  [
+    {
+        "no": 1,
+        "code": "<code><span class='red-r3'>charAt</span>()</code>",
+        "kegunaan": "satu karakter apa di index yang disebutkan",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>charAt</span>(0);</code>",
+        "codeexresult": "H",
+        "tipeReturn": "string",
+        "parameter": "number",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 2,
+        "code": "<code><span class='red-r3'>charCodeAt</span>()</code>",
+        "kegunaan": "berapa unicode di index yang disebutkan",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>charCodeAt</span>(0);</code>",
+        "codeexresult": 72,
+        "tipeReturn": "number",
+        "parameter": "number",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 3,
+        "code": "<code><span class='red-r3'>concat</span>()</code>",
+        "kegunaan": "gabung 2 string",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>concat</span>(\"\"!!!!\"\");</code>",
+        "codeexresult": "Hello world!!!!!",
+        "tipeReturn": "string",
+        "parameter": "string",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 4,
+        "code": "<code><span class='red-r3'>endsWith</span>()</code>",
+        "kegunaan": "cek apakah string diakhiri dengan karakter tertentu",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>endsWith</span>(\"world!\");</code>",
+        "codeexresult": true,
+        "tipeReturn": "boolean",
+        "parameter": "string",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 5,
+        "code": "<code><span class='red-r3'>includes</span>()</code>",
+        "kegunaan": "cek apakah string mengandung karakter tertentu",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>includes</span>(\"world\");</code>",
+        "codeexresult": true,
+        "tipeReturn": "boolean",
+        "parameter": "string",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 6,
+        "code": "<code><span class='red-r3'>indexOf</span>()</code>",
+        "kegunaan": "di mana posisi yang pertama kali ditemukan dari karakter yang dicari",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>indexOf</span>(\"welcome\");</code>",
+        "codeexresult": -1,
+        "tipeReturn": "number",
+        "parameter": "string",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 7,
+        "code": "<code><span class='red-r3'>lastIndexOf</span>()</code>",
+        "kegunaan": "di mana posisi yang terakhir kali ditemukan dari karakter yang dicari",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>lastIndexOf</span>(\"l\");</code>",
+        "codeexresult": 9,
+        "tipeReturn": "string",
+        "parameter": "string",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 8,
+        "code": "<code><span class='red-r3'>localeCompare</span>()</code>",
+        "kegunaan": "bandingkan string mana yang lebih dulu<br> -1 jika teks pertama lebih dulu<br>0 jika teks sama<br>1 jika teks pertama setelah string kedua",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>localeCompare</span>(\"Zetta\");</code>",
+        "codeexresult": -1,
+        "tipeReturn": "number",
+        "parameter": "string",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 9,
+        "code": "<code><span class='red-r3'>match</span>()</code>",
+        "kegunaan": "return kata yang sama dengan regExp dalam bentuk array, jika tidak ada kata yang sama maka return null",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>match</span>(/l/g);</code>",
+        "codeexresult": "l,l,l",
+        "tipeReturn": "array",
+        "parameter": "regexp",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 10,
+        "code": "<code><span class='red-r3'>repeat</span>()</code>",
+        "kegunaan": "buat string dengan jumlah copian sesuai parameter",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>repeat</span>(2);</code>",
+        "codeexresult": "Hello world!Hello world!",
+        "tipeReturn": "string",
+        "parameter": "number",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 11,
+        "code": "<code><span class='red-r3'>replace</span>()</code>",
+        "kegunaan": "Searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>replace</span>(\"world\", \"kamu\");</code>",
+        "codeexresult": "Hello kamu! ",
+        "tipeReturn": "string",
+        "parameter": "string, string",
+        "pCount": 2,
+        "jenis": "method"
+    },
+    {
+        "no": 12,
+        "code": "<code><span class='red-r3'>search</span>()</code>",
+        "kegunaan": "return posisi kata yang dicari, parameter fungsi bisa berupa string atau regexp",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>search</span>(/l/g);</code>",
+        "codeexresult": 2,
+        "tipeReturn": "number",
+        "parameter": "string / regexp",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 13,
+        "code": "<code><span class='red-r3'>slice</span>()</code>",
+        "kegunaan": "Extracts a part of a string and returns a new string",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>slice</span>(0, 5);</code>",
+        "codeexresult": "Hello",
+        "tipeReturn": "string",
+        "parameter": "number, number",
+        "pCount": 2,
+        "jenis": "method"
+    },
+    {
+        "no": 14,
+        "code": "<code><span class='red-r3'>split</span>()</code>",
+        "kegunaan": "bagi string menjadi array",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>split</span>(\" \");</code>",
+        "codeexresult": "Hello,world!",
+        "tipeReturn": "array",
+        "parameter": "string",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 15,
+        "code": "<code><span class='red-r3'>startsWith</span>()</code>",
+        "kegunaan": "Checks whether a string begins with specified characters",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>startsWith</span>(\"Hello\");</code>",
+        "codeexresult": true,
+        "tipeReturn": "boolean",
+        "parameter": "string",
+        "pCount": 1,
+        "jenis": "method"
+    },
+    {
+        "no": 16,
+        "code": "<code><span class='red-r3'>substr</span>()</code>",
+        "kegunaan": "ambil karakter dari index yang disebutkan di awal hingga index yang sisebutkan di akhir",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>substr</span>(1, 4);</code>",
+        "codeexresult": "ello",
+        "tipeReturn": "string",
+        "parameter": "number, number",
+        "pCount": 2,
+        "jenis": "method"
+    },
+    {
+        "no": 17,
+        "code": "<code><span class='red-r3'>substring</span>()</code>",
+        "kegunaan": "ambil karakter dari index yang disebutkan di awal hingga index sebelum index akhir yang disebutkan",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>substring</span>(1, 4);</code>",
+        "codeexresult": "ell",
+        "tipeReturn": "string",
+        "parameter": "number, number",
+        "pCount": 2,
+        "jenis": "method"
+    },
+    {
+        "no": 18,
+        "code": "<code><span class='red-r3'>toLocaleLowerCase</span>()</code>",
+        "kegunaan": "jadikan huruf kecil semua, berdasarkan local host",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>toLocaleLowerCase</span>();</code>",
+        "codeexresult": "hello world!",
+        "tipeReturn": "string",
+        "parameter": "null",
+        "pCount": 0,
+        "jenis": "method"
+    },
+    {
+        "no": 19,
+        "code": "<code><span class='red-r3'>toLocaleUpperCase</span>()</code>",
+        "kegunaan": "jadikan huruf bedar semua, berdasarkan local host",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>toLocaleUpperCase</span>();</code>",
+        "codeexresult": "HELLO WORLD!",
+        "tipeReturn": "string",
+        "parameter": "null",
+        "pCount": 0,
+        "jenis": "method"
+    },
+    {
+        "no": 20,
+        "code": "<code><span class='red-r3'>toLowerCase</span>()</code>",
+        "kegunaan": "jadikan huruf kecil semua",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>toLowerCase</span>();</code>",
+        "codeexresult": "hello world!",
+        "tipeReturn": "string",
+        "parameter": "null",
+        "pCount": 0,
+        "jenis": "method"
+    },
+    {
+        "no": 21,
+        "code": "<code><span class='red-r3'>toString</span>()</code>",
+        "kegunaan": "Returns the value of a String object",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>toString</span>();</code>",
+        "codeexresult": "hello world!",
+        "tipeReturn": "string",
+        "parameter": "null",
+        "pCount": 0,
+        "jenis": "method"
+    },
+    {
+        "no": 22,
+        "code": "<code><span class='red-r3'>toUpperCase</span>()</code>",
+        "kegunaan": "jadikan huruf besar semua",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>toUpperCase</span>();</code>",
+        "codeexresult": "HELLO WORLD!",
+        "tipeReturn": "string",
+        "parameter": "null",
+        "pCount": 0,
+        "jenis": "method"
+    },
+    {
+        "no": 23,
+        "code": "<code><span class='red-r3'>trim</span>()</code>",
+        "kegunaan": "menghapus spasi dari awal dan akhir sebuah teks",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>trim</span>();</code>",
+        "codeexresult": "hello world!",
+        "tipeReturn": "string",
+        "parameter": "null",
+        "pCount": 0,
+        "jenis": "method"
+    },
+    {
+        "no": 24,
+        "code": "<code><span class='red-r3'>valueOf</span>()</code>",
+        "kegunaan": "Returns the primitive value of a String object",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>valueOf</span>();</code>",
+        "codeexresult": "hello world!",
+        "tipeReturn": "string",
+        "parameter": "null",
+        "pCount": 0,
+        "jenis": "method"
+    },
+    {
+        "no": 25,
+        "code": "<code class='red-r3'>constructor</code>",
+        "kegunaan": "return fungsi pembuat object",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>constructor</span>;</code>",
+        "codeexresult": "function String() {<br>  [native code]<br>}",
+        "tipeReturn": "function",
+        "parameter": "null",
+        "pCount": 0,
+        "jenis": "property"
+    },
+    {
+        "no": 26,
+        "code": "<code class='red-r3'>length</code>",
+        "kegunaan": "return jumlah karakter",
+        "codeex": "<code><i class='blue-r3'>str</i>.<span class='red-r3'>length</span>;</code>",
+        "codeexresult": 12,
+        "tipeReturn": "number",
+        "parameter": "null",
+        "pCount": 0,
+        "jenis": "property"
+    },
+    {
+        "no": 27,
+        "code": "<code><span class='blue-r3'>String</span>.<span class='red-r3'>fromCharCode</span>()</code>",
+        "kegunaan": "jadikan unicode menjadi string",
+        "codeex": "<code><span class='blue-r3'>String</span>.<span class='red-r3'>fromCharCode</span>(65);</code>",
+        "codeexresult": "A",
+        "tipeReturn": "string",
+        "parameter": "number",
+        "pCount": 1,
+        "jenis": "static method"
+    }
+]
+
+};
